@@ -26,6 +26,7 @@ class _HomeState extends State<Home> {
                       fontSize: 24.0,
                       fontWeight: FontWeight.w400,
                     ),
+                    textAlign: TextAlign.center,
                   ),
                   const SizedBox(height: 18.0),
                   ClipRRect(
@@ -41,6 +42,7 @@ class _HomeState extends State<Home> {
                     style: TextStyle(
                       fontSize: 50.0,
                     ),
+                    textAlign: TextAlign.center,
                   ),
                   const Text(
                     "Master of Science",
@@ -48,6 +50,7 @@ class _HomeState extends State<Home> {
                       fontSize: 18.0,
                       fontWeight: FontWeight.bold,
                     ),
+                    textAlign: TextAlign.center,
                   ),
                   const SizedBox(height: 36.0),
                   const Padding(
@@ -97,6 +100,7 @@ class _HomeState extends State<Home> {
                           fontSize: 14.0,
                           color: Colors.grey,
                         ),
+                        textAlign: TextAlign.center,
                       ),
                       FaIcon(
                         FontAwesomeIcons.solidHeart,
@@ -109,6 +113,7 @@ class _HomeState extends State<Home> {
                           fontSize: 14.0,
                           color: Colors.grey,
                         ),
+                        textAlign: TextAlign.center,
                       ),
                     ],
                   ),
@@ -125,6 +130,7 @@ class _HomeState extends State<Home> {
                       fontSize: 14.0,
                       color: Colors.grey,
                     ),
+                    textAlign: TextAlign.center,
                   ),
                   TextButton(
                     onPressed: () {
@@ -139,6 +145,7 @@ class _HomeState extends State<Home> {
                         fontSize: 14.0,
                         color: Colors.grey,
                       ),
+                      textAlign: TextAlign.center,
                     ),
                   )
                 ],
