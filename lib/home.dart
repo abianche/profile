@@ -10,6 +10,17 @@ class Home extends StatefulWidget {
 }
 
 class _HomeState extends State<Home> {
+  double getImageSize(Size size) {
+    if (size.width >= 960) {
+      return 350.0;
+    }
+    if (size.width >= 720) {
+      return 280.0;
+    }
+
+    return 190.0;
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -34,7 +45,7 @@ class _HomeState extends State<Home> {
                     child: Image.asset(
                       "assets/images/profile.png",
                       filterQuality: FilterQuality.high,
-                      height: 350.0,
+                      height: getImageSize(MediaQuery.of(context).size),
                     ),
                   ),
                   const Text(
