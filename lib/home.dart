@@ -31,7 +31,7 @@ class _HomeState extends State<Home> {
                   ClipRRect(
                     borderRadius: BorderRadius.circular(16.0),
                     child: Image.asset(
-                      "images/profile.png",
+                      "assets/images/profile.png",
                       filterQuality: FilterQuality.high,
                       height: 350.0,
                     ),
