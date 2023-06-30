@@ -12,10 +12,10 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   double getImageSize(Size size) {
     if (size.width >= 960) {
-      return 350.0;
+      return 300.0;
     }
     if (size.width >= 720) {
-      return 280.0;
+      return 250.0;
     }
 
     return 190.0;
@@ -69,7 +69,7 @@ class _HomeState extends State<Home> {
                     child: SizedBox(
                       width: 800.0,
                       child: Text(
-                        "I've been a computer science enthusiast for as long as I can remember. I'm always trying to master whatever I am doing without losing focus. However, I also keep an eye open to what's new out there. I am an early adopter and a remote worker.",
+                        "Throughout my life, I have maintained an unwavering passion for computer science.\nMy commitment to continuous growth drives me to constantly refine my skills while staying laser-focused on my goals. I maintain a keen awareness of emerging trends and developments within the field.\nAs an early adopter, I eagerly embrace cutting-edge technologies, and my work as a remote professional allows me to leverage my expertise from any location.",
                         style: TextStyle(
                           fontSize: 18.0,
                           fontStyle: FontStyle.italic,
