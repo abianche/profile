@@ -42,7 +42,7 @@ class _HomeState extends State<Home> {
         actions: [
           TextButton(
             onPressed: () {
-              html.window.open("assets/documents/CV - Alessio Bianchetti.pdf", "_blank");
+              html.window.open("/documents/CV - Alessio Bianchetti.pdf", "_blank");
             },
             child: const Text(
               "Download CV",
