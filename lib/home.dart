@@ -1,5 +1,5 @@
 // ignore: avoid_web_libraries_in_flutter
-import 'dart:html';
+import 'dart:html' as html;
 
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
@@ -24,12 +24,6 @@ class _HomeState extends State<Home> {
     return 190.0;
   }
 
-  void downloadFile(String url) {
-    AnchorElement anchorElement = AnchorElement(href: url);
-    anchorElement.download = "CV - Alessio Bianchetti";
-    anchorElement.click();
-  }
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -48,7 +42,7 @@ class _HomeState extends State<Home> {
         actions: [
           TextButton(
             onPressed: () {
-              downloadFile("/assets/documents/CV - Alessio Bianchetti.pdf");
+              html.window.open("assets/documents/CV - Alessio Bianchetti.pdf", "_blank");
             },
             child: const Text(
               "Download CV",
