@@ -1,3 +1,6 @@
+// ignore: avoid_web_libraries_in_flutter
+import 'dart:html';
+
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:profile/widgets/icon_link.dart';
@@ -21,9 +24,43 @@ class _HomeState extends State<Home> {
     return 190.0;
   }
 
+  void downloadFile(String url) {
+    AnchorElement anchorElement = AnchorElement(href: url);
+    anchorElement.download = "CV - Alessio Bianchetti";
+    anchorElement.click();
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        centerTitle: true,
+        elevation: 0.0,
+        title: const Text(
+          "ALESSIO BIANCHETTI",
+          textAlign: TextAlign.center,
+        ),
+        titleTextStyle: const TextStyle(
+          fontSize: 24.0,
+          fontWeight: FontWeight.w400,
+          color: Colors.white,
+        ),
+        actions: [
+          TextButton(
+            onPressed: () {
+              downloadFile("/assets/documents/CV - Alessio Bianchetti.pdf");
+            },
+            child: const Text(
+              "Download CV",
+              style: TextStyle(
+                fontSize: 14.0,
+                color: Colors.grey,
+              ),
+              textAlign: TextAlign.center,
+            ),
+          ),
+        ],
+      ),
       body: SingleChildScrollView(
         child: SelectionArea(
           child: Padding(
@@ -31,14 +68,6 @@ class _HomeState extends State<Home> {
             child: Center(
               child: Column(
                 children: [
-                  const Text(
-                    "ALESSIO BIANCHETTI",
-                    style: TextStyle(
-                      fontSize: 24.0,
-                      fontWeight: FontWeight.w400,
-                    ),
-                    textAlign: TextAlign.center,
-                  ),
                   const SizedBox(height: 18.0),
                   ClipRRect(
                     borderRadius: BorderRadius.circular(16.0),

@@ -7,6 +7,9 @@ ThemeData getThemeData() {
     scaffoldBackgroundColor: const Color(0xff212121),
     appBarTheme: const AppBarTheme(
       color: Color(0xff212121),
+      titleTextStyle: TextStyle(
+        color: Colors.white,
+      ),
     ),
     textTheme: GoogleFonts.notoSansTextTheme().apply(
       bodyColor: Colors.white,
