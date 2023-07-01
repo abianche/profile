@@ -65460,7 +65460,7 @@ return A.a0H(q,A.ajj(new A.wd(new A.bF(B.b1,A.lF(A.k2(A.a([B.dc,new A.CC(p,new A
 A.a71.prototype={
 $0(){var s=window
 s.toString
-B.vk.K4(s,"assets/documents/CV - Alessio Bianchetti.pdf","_blank")},
+B.vk.K4(s,"/documents/CV - Alessio Bianchetti.pdf","_blank")},
 $S:0}
 A.a72.prototype={
 $0(){A.azq("\xa9 "+A.aeM(new A.e0(Date.now(),!1))+" Alessio Bianchetti",this.a)},
