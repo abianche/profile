@@ -8,4 +8,4 @@ Profile project.
 
 ## Build
 
-`flutter build web --web-renderer canvaskit --base-href /profile/ --release`
+`flutter build web --web-renderer canvaskit --release`

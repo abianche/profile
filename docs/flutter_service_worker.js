@@ -3,8 +3,9 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 
-const RESOURCES = {"assets/AssetManifest.bin": "82375364883117c030e58cfdf1c13d44",
-"assets/AssetManifest.json": "34975730e35d591d5e8c8279cfe05884",
+const RESOURCES = {"assets/AssetManifest.bin": "f7e19ee44f32d9f44a68679950e6b8d1",
+"assets/AssetManifest.json": "af1a4e5a45835257dd65931585facff4",
+"assets/assets/documents/CV%2520-%2520Alessio%2520Bianchetti.pdf": "58c21263ddca5c5f75a22742cb3a9d52",
 "assets/assets/google_fonts/NotoSans-Black.ttf": "7344fa7bfdc91692c2005063dfd8d9e5",
 "assets/assets/google_fonts/NotoSans-BlackItalic.ttf": "cf36d264a78d3f4a38f18bebfb5038d7",
 "assets/assets/google_fonts/NotoSans-Bold.ttf": "b20e2d260790596b6f6624a42b9c7833",
@@ -46,9 +47,9 @@ const RESOURCES = {"assets/AssetManifest.bin": "82375364883117c030e58cfdf1c13d44
 "icons/Icon-512.png": "d023adad6533557f1c6b409110ab0979",
 "icons/Icon-maskable-192.png": "1cdaa070d736855dc605f081de955196",
 "icons/Icon-maskable-512.png": "d023adad6533557f1c6b409110ab0979",
-"index.html": "e9c4a0be7f692118bb7dd24aed0c8207",
-"/": "e9c4a0be7f692118bb7dd24aed0c8207",
-"main.dart.js": "4295d9f7208eebe231fa0a1d64f94b9a",
+"index.html": "62e09e1f14fc7c829053c3fc6e43c0ee",
+"/": "62e09e1f14fc7c829053c3fc6e43c0ee",
+"main.dart.js": "ceb17db9559566999a37eac1d2963964",
 "manifest.json": "9cde01ab153e6ae7d861ad4dddf9ee05",
 "robots.txt": "664a72a9385dcf8618ac4768e7abb496",
 "styles.css": "9d1a38ca4fd53db87b11f2b34c4a0f7c",
