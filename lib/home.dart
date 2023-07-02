@@ -45,7 +45,7 @@ class _HomeState extends State<Home> {
               html.window.open("/documents/CV - Alessio Bianchetti.pdf", "_blank");
             },
             child: const Text(
-              "Download CV",
+              "GET CV",
               style: TextStyle(
                 fontSize: 14.0,
                 color: Colors.grey,
@@ -96,7 +96,6 @@ class _HomeState extends State<Home> {
                         style: TextStyle(
                           fontSize: 18.0,
                           fontStyle: FontStyle.italic,
-                          fontWeight: FontWeight.w100,
                         ),
                         textAlign: TextAlign.center,
                       ),
@@ -108,7 +107,7 @@ class _HomeState extends State<Home> {
                     children: [
                       IconLink(
                         icon: FaIcon(FontAwesomeIcons.envelope),
-                        url: "mailto:alessio.bianchetti@gmail.com",
+                        url: "mailto:abianche@protonmail.com",
                       ),
                       IconLink(
                         icon: FaIcon(FontAwesomeIcons.github),
